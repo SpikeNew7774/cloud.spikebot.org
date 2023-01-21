@@ -1,1 +1,2 @@
 <link rel="stylesheet" href="https://cloud.spikebot.org/plugins/pluginID/sb-IChecker/id/48532527697/ver1.0.0/spikebot-ichecker_css.css">
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
