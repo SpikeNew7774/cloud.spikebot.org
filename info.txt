@@ -1,0 +1,2 @@
+This 'cloud.spikebot.org' is a cloud for plugins, files and more.
+It Uses hosting Github Pages.
