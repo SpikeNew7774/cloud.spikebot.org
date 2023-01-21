@@ -1,0 +1,9 @@
+<div class="popup-ichecker">
+      <div class="iconIC"><i class="uil uil-wifi"></i></div>
+      <div class="details">
+        <p class="sicplu">SpikeBot IChecker Plugin</p>
+        <h2 class="title"></h2>
+        <p class="desc"></p>
+        <button class="reconnect">Znovu sa pripojte</button>
+      </div>
+</div>
