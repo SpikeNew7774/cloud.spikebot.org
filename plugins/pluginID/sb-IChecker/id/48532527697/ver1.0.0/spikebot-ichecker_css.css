@@ -1,73 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 .popup-ichecker {
-    position: absolute;
-    left: 50%;
-    top: -25%;
-    visibility: hidden;
-    width: 490px;
-    border-radius: 5px;
-    padding: 13px 17px 20px;
-    background: #fff;
-    display: flex;
-    border-top: 3px solid #EA4D67;
-    transform: translateX(-50%);
-    box-shadow: 0 10px 25px rgba(52,87,220,0.1);
-    transition: all 0.25s ease;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  left: 50%;
+  top: -25%;
+  visibility: hidden;
+  width: 490px;
+  border-radius: 5px;
+  padding: 13px 17px 20px;
+  background: #fff;
+  display: flex;
+  border-top: 3px solid #EA4D67;
+  transform: translateX(-50%);
+  box-shadow: 0 10px 25px rgba(52,87,220,0.1);
+  transition: all 0.25s ease;
+}
+.popup-ichecker.show {
+  top: 0;
+  visibility: visible;
+}
+.popup-ichecker.online {
+  border-color: #2ECC71;
+}
+.popup-ichecker .iconIC i {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  color: #fff;
+  margin-right: 15px;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #EA4D67;
+  margin-top: 15px;
+}
+.popup-ichecker.online .iconIC i {
+  background: #2ECC71;
+}
+.popup-ichecker .title {
+  font-size: 1.2rem;
+}
+.popup-ichecker .desc {
+  color: #474747;
+  margin: 3px 0 10px;
+  font-size: 1.04rem;
+}
+.popup-ichecker .reconnect {
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 8px 13px;
+  border-radius: 4px;
+  background: #5372F0;
+}
+.popup-ichecker.online .reconnect {
+  background: #bfbfbf;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 550px) {
+  .popup-ichecker {
+    width: 100%;
+    padding: 10px 15px 17px;
   }
-  .popup-ichecker.show {
-    top: 0;
-    visibility: visible;
-  }
-  .popup-ichecker.online {
-    border-color: #2ECC71;
-  }
-  .popup-ichecker .iconIC i {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    color: #fff;
-    margin-right: 15px;
-    font-size: 1.2rem;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background: #EA4D67;
-    margin-top: 15px;
-  }
-  .popup-ichecker.online .iconIC i {
-    background: #2ECC71;
-  }
-  .popup-ichecker .title {
-    font-size: 1.2rem;
-  }
-  .popup-ichecker .desc {
-    color: #474747;
-    margin: 3px 0 10px;
-    font-size: 1.04rem;
-  }
-  .popup-ichecker .reconnect {
-    border: none;
-    outline: none;
-    color: #fff;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 0.95rem;
-    padding: 8px 13px;
-    border-radius: 4px;
-    background: #5372F0;
-  }
-  .popup-ichecker.online .reconnect {
-    background: #bfbfbf;
-    pointer-events: none;
-  }
-  
-  @media screen and (max-width: 550px) {
-    .popup-ichecker {
-      width: 100%;
-      padding: 10px 15px 17px;
-    }
-  }
-  .sicplu {
-    display: flex;
-    font-size: 12.7px;
-    color: rgb(158, 158, 158);
-  }
+}
+.sicplu {
+  display: flex;
+  font-size: 12.7px;
+  color: rgb(158, 158, 158);
+}
