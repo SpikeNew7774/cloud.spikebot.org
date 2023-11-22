@@ -23,7 +23,7 @@ const checkConnection = async () => {
 const handlePopup = (status) => {
     if(status) { // If the status is true (online), update icon, title, and description accordingly
         wifiIcon.className = "uil uil-wifi";
-        popupTitleIC.innerText = "Pripojenie úspešne pripojené k internetu";
+        popupTitleIC.innerText = "Internet bol úspešne pripojený";
         popupDesc.innerHTML = "Vaše zariadenie je teraz úspešne pripojené k internetu.";
         popupic.classList.add("online");
         return setTimeout(() => popupic.classList.remove("show"), 3000);
